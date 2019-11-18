@@ -57,15 +57,15 @@ def reduce_to_all_true(array)
   falsearray = []
   while i < array.length do 
     if array[i]
-      truearray.push("True")
+    truearray.push("True")
     else   
     falsearray.push("False")  
     end  
   end 
   i += 1
   if falsearray.empty?
-    return false 
-  else 
     return true 
+  else 
+    return false
   end  
 end  
