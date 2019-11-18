@@ -62,7 +62,6 @@ def reduce_to_all_true(array)
     falsearray.push("False")  
     end  
   end 
-  puts tf
   i += 1
   if falsearray.empty?
     return false 
