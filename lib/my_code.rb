@@ -69,3 +69,22 @@ def reduce_to_all_true(array)
     return false
   end  
 end  
+
+def reduce_to_any_true(array)
+  i = 0 
+  truearray = []
+  falsearray = []
+  while i < array.length do 
+    if array[i]
+    truearray.push("True")
+    else   
+    falsearray.push("False")  
+    end 
+  i += 1
+  end 
+  if truearray.empty?
+    return false 
+  else 
+    return true
+  end  
+end  
