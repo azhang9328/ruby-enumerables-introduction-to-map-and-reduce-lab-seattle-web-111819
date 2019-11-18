@@ -60,9 +60,9 @@ def reduce_to_all_true(array)
     truearray.push("True")
     else   
     falsearray.push("False")  
-    end  
-  end 
+    end 
   i += 1
+  end 
   if falsearray.empty?
     return true 
   else 
